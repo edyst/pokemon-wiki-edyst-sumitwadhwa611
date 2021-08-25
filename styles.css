@@ -1,0 +1,1266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+}
+.parent{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.child{
+    width: 1366px;
+}
+
+/* navbar start**************************************************************************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+li,a  {
+    text-decoration: none;
+    color: gray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.logo{
+    height: 30px;
+    cursor: pointer;
+}
+.nb-apply{
+    padding: 5px 30px;
+    border: none;
+    background-color: tomato;
+    color: white;
+}
+
+/* navbar end ****************************************************************************** */
+
+/* section-2 background-image *********************************************************/
+.hero-container{
+    background-image:url(./images/ksqOx5F.jpg);
+    color: white;
+}
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 140px 0px;
+}
+
+.hero-wrapper h1{
+    text-align: left;
+    font-size: 90px;
+    padding-bottom: 30px;
+}
+
+.hero-wrapper h3 {
+    font-size: 33px;
+    padding-bottom: 20px;
+}
+
+.hero-wrapper p{
+  background-color: white;
+  color: black;  
+  border-radius: 15px;
+  padding: 10px 20px; 
+}
+.apply-button{
+    padding: 20px 75px;
+    background-color: #4992ca;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.register-button{
+    padding: 20px 50px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+/* section-2 background-image *********************************************************/
+
+/* section-3 *******************************************************************************/
+
+
+.pocket-monsters{
+    background-color:#4992ca;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+.pocket-monsters .title{
+    text-align: center;
+    font-size: 50px;
+}
+.pocket-monsters .info{
+    font-size: 18px;
+    text-align: center;
+    padding:30px 0px;
+}
+.pocket-monsters .tiles-container{
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+}
+
+.pocket-monsters .tile{
+    width: 33%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.pocket-monsters .tile-title{
+    font-size: 35px;
+    padding: 30px 0px;
+    font-weight: 600;
+}
+.pocket-monsters .tile-image{
+    font-size: 32px;
+}
+.pocket-monsters .tile-text{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+/* section-3 *******************************************************************************/
+
+/* section-4 Statistics*****************************************************************************/
+
+.statistics{
+    padding: 60px 0px;
+}
+
+.statistics .title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.statistics .tiles-container {
+        display: flex;
+       justify-content: space-between;
+        align-items: center;
+}
+
+.statistics .tile-heading{
+    padding: 30px 0;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.statistics .tile-description{
+    font-size: 18px;
+}
+
+.statistics .tile-image{
+    padding: 10px;
+}
+/* section-5 pokemon of the year*****************************************************************/
+
+.pokemon-section{
+    padding: 60px 0px;
+}
+.pokemon-section .title{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+.pokemon-section .middle-tile{
+    flex-direction: column;
+    height: 70px;
+}
+
+.pokemon-section .middle-tile h3 {
+color:#8a8a8a;
+padding: 10px;
+padding-left: 20px;
+}
+
+.pokemon-section .middle-tile p{
+color: #8a8a8a;
+padding-left: 20px;
+}
+
+
+.pokemon-section .pokemon-tile-container{
+display: flex;
+flex-direction: column;
+}
+
+.pokemon-section .pokemon-tile{
+ display: flex;
+ justify-content: space-between;
+}
+
+.pokemon-section .tile-image{
+    height: 10rem;
+    width: 10rem;
+    padding-right: 20px;
+}
+.pokemon-section .pokemon-name{
+    height: 4rem;
+    width: 8rem;
+}
+
+.pokemon-section .pokemon-description{
+    color: #8a8a8a;
+    padding: 20px 90px;
+    text-align: left;
+}
+
+/* section-5 pokemon-end *****************************************************************/
+
+/* section-6  Q&A section*******************************************************************************/
+
+.qa-section{
+    background-color:#4992ca ;
+    padding: 20px 80px;
+}
+
+.qa-section .qa-title{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+}
+
+.qa-section .sub-title{
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.qa-section .sub-sub-title{
+color: white;
+padding: 20px;
+text-align: left;
+}
+
+.qa-section .qa1 {
+    padding: 10px 100px;
+    text-align: left;
+}
+.qa-section .qa{
+    color: white;
+    padding: 10px;
+}
+.qa-section .ola {
+    padding-left:10px ;
+    color: white;
+    text-align: left;
+}
+
+/* section-7 Pokemon battles*************************************************************************/
+.pokemon-battles{
+    padding: 20px 400px;
+    align-items: center;
+}
+
+.pokemon-battles .sub-section{
+    display: flex;
+}
+
+
+.pokemon-battles .main-head{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.pokemon-battles .sub-head{
+    padding: 20px;
+    text-align: center;
+}
+
+table,th, td{
+    border: 1px solid  #8a8a8a;
+    border-collapse: collapse;
+}
+
+.pokemon-battles td{
+    color: #8a8a8a;
+    padding: 5px;
+}
+
+.pokemon-battles .left-side-table{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 20px;
+}
+.pokemon-battles .left-side-table .topic {
+    padding-bottom: 20px;
+}
+
+.pokemon-battles .description{
+    line-height: 1.5;
+    color: #8a8a8a;
+}
+.pokemon-battles .table{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 2;
+    padding: 20px;
+}
+
+.pokemon-battles .table-bottom{
+ padding-top: 25px;
+}
+
+.button-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-battles a{
+    color:#4992ca;
+    font-weight: 450;
+}
+
+.pokemon-battles a button{
+    background-color: #4992ca;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+}
+
+
+/* Know more *************************************************************************** */
+
+.know-more{
+    padding: 20px;
+    background-color: #424242;
+}
+
+.know-more .question{
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.know-more .click-here{
+    background: transparent;
+    padding: 15px 80px;
+    color: white;
+    border-color: white;
+    margin-bottom: 20px;
+}
+
+/* pokrmon-card***********************************************************************************************/
+
+.pokemon-card {
+    padding: 20px;
+}
+
+.pokemon-card .heading {
+    color: #8a8a8a;
+    font-size: 45px;
+}
+.pokemon-card .card-container {
+    width: 240px;
+   background-color:lightgray;
+   border: 1px solid #d3d1d1;
+   border-top: 15px solid #4992ca ;
+   margin: auto;
+}
+.pokemon-card .name {
+    color: #8a8a8a;
+    padding: 10px;
+}
+
+.pokemon-card .ability {
+    font-weight: 600;
+}
+
+.pokemon-card .description {
+   
+    padding: 30px;
+    margin: auto;
+    background-color: white;
+    border-top: 1px solid #d3d1d1;
+    
+}
+/* pokemon-Trainers***********************************************************************************************/
+
+.pokemon-trainers{
+    padding: 25px 70px;
+    background-color:#4992ca ;
+}
+
+.pokemon-trainers .tiles-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-trainers .tile{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+.pokemon-trainers .heading{
+    padding-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.pokemon-trainers .tile-image{
+    height: 10rem;
+    width: 10rem;
+    padding-right: 20px;
+}
+
+.pokemon-trainers .pokemon-name{
+    height: 5rem;
+   width: 10rem;
+   padding: 10px;
+}
+
+.pokemon-trainers .middle-tile{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+.pokemon-trainers .middle-tile h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+
+.pokemon-trainers .middle-tile p {
+    color: white;
+}
+
+.pokemon-trainers .tile-description{
+    color: white;
+    padding: 20px 90px;
+    text-align: left;
+}
+
+/* section-9 generation-cards***********************************************************************************************/
+
+.generation-cards{
+    padding: 30px;
+}
+
+.generation-cards .date {
+    padding: 20px;
+}
+.generation-cards .card {
+    max-width: 450px;
+    padding: 10px;
+}
+.generation-cards .info {
+    background-color: #e6e3e3;
+    border-top: 15px solid #4992ca;
+
+}
+
+.generation-cards .description {
+    line-height: 1.6;
+    font-weight: 400;
+    border: 1px solid #e6e4e4;
+
+}
+
+.generation-cards .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.generation-cards .heading {
+    color: #8a8a8a;
+    font-size: 40px;
+}
+
+/* Subscribe**********************************************************************88*/
+
+.subscribe{
+    background-color: #424242;
+    padding: 30px;
+}
+
+.subscribe .enter {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subscribe input {
+ padding: 15px 100px;
+ margin: 20px;
+}
+
+.subscribe .submit {
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 80px;
+}
+/* section-10 pokemon games **********************************************************************88*/
+
+
+.pokemon-games{
+    padding: 50px 140px;
+}
+
+.pokemon-games .title {
+    color: #8a8a8a;
+    font-size: 40px;
+    padding-bottom:15px ;
+}
+
+.pokemon-games .tiles-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokemon-games .tiles-container .tile {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-games .tiles-container .tile .heading {
+    font-weight: 700;
+    padding: 30px;
+}
+
+.pokemon-games .tiles-container .tile .description {
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.pokemon-games .tiles-container .tile .publisher {
+    padding: 30px;
+    font-weight: 400;
+}
+.pokemon-games .tile-image {
+    height: 10rem;
+    width: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pokemon-games .see-more {
+    padding: 10px 70px;
+    background-color: #4992ca;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Designers**********************************************************************88*/
+
+.designers{
+    padding: 50px;
+    background-color:#4992ca ;
+}
+
+.designers .tiles-container {
+    display: flex;
+}
+.designers .heading {
+  color: white;
+  padding-bottom: 30px;
+  font-size: 45px;
+}
+
+.designers .tile-image {
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+}
+
+
+.designers .name {
+    color: white;
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.designers .profession {
+    color: white;
+    padding: 10px;
+    font-weight: 250;
+    font-size: 18px;
+}
+
+.designers .description {
+    color: white;
+    padding: 15px;
+}
+
+/* Logos**********************************************************************88*/
+
+.logos {
+    padding: 30px;
+}
+
+.logos .heading {
+    color: #8a8a8a;
+    font-size: 50px;
+    padding-bottom:20px ;
+}
+.logos .description {
+    color: #8a8a8a;
+    font-weight: 500;
+   padding:10px;
+}
+
+.logos .pokemon {
+    height: 5rem;
+    width: 12rem;
+    padding: 12px;
+}
+.logos .tiles-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.logos .tile{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+/* section-10 end**********************************************************************88*/
+
+.want-to{
+    background-color:#4992ca;
+    padding: 30px;
+}
+
+.want-to h1{
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.want-to button {
+   border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px 15px;
+}
+
+/* section-10 end**********************************************************************88*/
+
+ .footer ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+ .footer a{
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding:40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer{
+    background-color: rgb(12, 23, 31);
+}
+ .footer h3{
+    color: rgb(102, 106, 117);
+    margin: 0;
+    padding-bottom:5px;
+}
+ .footer .ic{
+    width: 20px;
+}
+.footer .icons{
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+}
+
+
+/* MOBILE RESPONSIVE**********************************************************************88*/
+
+
+ @media (max-width:425px){
+
+    .child{
+        width: 95%;
+    }
+
+header nav{
+    display: none;
+}
+.menu-mobile{
+    display: block;
+}
+
+.hero-container .hero-wrapper h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-wrapper h1 {
+    text-align: left;
+    font-size: 25px;
+}
+
+.hero-wrapper h3 {
+    font-size: 15px;
+}
+
+.hero-wrapper h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apply-button{
+   margin-left: 60px;
+}
+
+.register-button{
+  margin-left: 60px;
+}
+/* pocket monsters ********************************************************/
+
+.pocket-monsters{
+    background-color:#4992ca;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+.pocket-monsters .title{
+    text-align: center;
+    font-size: 30px;
+}
+.pocket-monsters .info{
+    font-size: 18px;
+    text-align: center;
+    padding:30px 0px;
+}
+.pocket-monsters .tiles-container{
+    display: flex;
+flex-direction: column;
+    align-items: center;
+}
+.pocket-monsters .tile{
+    width: 33%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.pocket-monsters .tile-title{
+    font-size: 35px;
+    padding: 30px 0px;
+    font-weight: 600;
+}
+.pocket-monsters .tile-image{
+    font-size: 32px;
+}
+.pocket-monsters .tile-text{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 600;
+    width: 350px;
+    margin-left: -120px;
+}
+
+
+/* stats*************************************************************** */
+
+.statistics{
+    padding: 60px 0px;
+}
+
+.statistics .title{
+    text-align: center;
+    font-size: 25px;
+}
+
+.statistics .tiles-container {
+        flex-direction: column;
+        align-items: center;
+}
+
+.statistics .tile-heading{
+    padding: 30px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.statistics .tile-description{
+    font-size: 15px;
+    padding: 0px;
+}
+
+.statistics .tile-image{
+    padding: 0px;
+    
+}
+
+/* pokemon of the year  **************************************************/
+
+.pokemon-section .title{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.pokemon-section .pokemon-tile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+   }
+
+   .pokemon-section .middle-tile{
+    height: 70px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+   .pokemon-section .tile-image{
+    height: 10rem;
+    width: 10rem;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pokemon-section .pokemon-description{
+    color: #8a8a8a;
+    padding: 20px 40px;
+    text-align: center;
+    margin-right: auto;
+    margin-right: auto;
+} 
+
+
+/* pokemon of the year  **************************************************/
+
+/* Q and A section ***********************************************************/
+
+.qa-section{
+    background-color:#4992ca ;
+    padding: 20px 0px;
+}
+
+.qa-section .qa-title{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+}
+
+.qa-section .sub-title{
+    color: white;
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qa-section .sub-sub-title{
+color: white;
+padding: 20px;
+text-align: left;
+}
+
+.qa-section .qa1 {
+    padding: 10px 0px;
+    text-align: center;
+}
+.qa-section .qa{
+    color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.qa-section .ola {
+    padding-left:10px ;
+    color: white;
+    text-align: center;
+}
+
+/* pokemon battles **************************************************************/
+
+.pokemon-battles{
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.pokemon-battles .sub-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* pokemon trainers **************************************************************/
+
+.pokemon-trainers .tile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pokemon-trainers{
+    padding: 25px 70px;
+    background-color:#4992ca ;
+}
+
+
+.pokemon-trainers .middle-tile{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.pokemon-trainers .tile-description{
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* generation cards *************************************************/
+
+.generation-cards .date {
+    padding: 20px;
+}
+.generation-cards .card {
+    max-width: 400px;
+    padding: 10px;
+    margin:20px;
+}
+
+.generation-cards .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: auto;
+}
+
+.generation-cards .heading {
+    color: #8a8a8a;
+    font-size: 20px;
+}
+
+/* subscribe *******************************************/
+.subscribe{
+    background-color: #424242;
+    padding: 10px;
+    
+}
+
+.subscribe .enter {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.subscribe input {
+ padding: 15px 60px;
+ margin: 20px;
+}
+
+.subscribe .submit {
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 20px;
+}
+
+/* pokemon-games ***********************************/
+
+
+.pokemon-games .tiles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pokemon-games{
+    padding: 50px 0px;
+}
+
+/* designers *******************************/
+.designers .tiles-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* subscribe ***************************************/
+
+.subscribe .enter {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.subscribe input {
+    padding: 15px 50px;
+    margin: 20px;
+   }
+
+/* logos ********************************************/
+.logos {
+    padding: 30px;
+}
+
+.logos .heading {
+    color: #8a8a8a;
+    font-size: 50px;
+    padding-bottom:20px ;
+}
+.logos .description {
+    color: #8a8a8a;
+    font-weight: 500;
+   padding:10px;
+}
+
+.logos .pokemon {
+    height: 5rem;
+    width: 12rem;
+    padding: 12px;
+}
+.logos .tiles-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logos .tile{
+    display: flex;
+    flex-flow: column;
+    
+    align-items: center;
+   
+}
+
+ /* footer **********************************************************/
+
+        .footer{
+            display: flex;
+            flex-direction: column;
+            max-width: 1200px;
+            padding:40px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+    }
+
+
+    @media (min-width:426px) and (max-width:1024px){
+      
+        header nav{
+            display: none;
+        }
+
+        .menu-mobile{
+            display: block;
+        }
+
+        /* hero wrapper ****************************************************/
+        .hero-wrapper{
+            display: flex;
+            flex-direction: column;
+            padding: 140px 0px;
+        }
+
+        .hero-wrapper h1{
+            text-align: left;
+            font-size: 40px;
+            padding-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+
+        .hero-wrapper h3 {
+            font-size: 25px;
+            padding-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .apply-button{
+            padding: 20px 75px;
+            background-color: #4992ca;
+            color: white;
+            margin-bottom: 20px;
+            font-size: 15px;
+            margin-left: 240px;
+        }
+        
+        .register-button{
+            padding: 20px 50px;
+            background-color: transparent;
+            border-color: white;
+            color: white;
+            margin-bottom: 20px;
+            font-size: 15px;
+            margin-left: 240px;
+        }
+        .hero-wrapper p{
+            background-color: white;
+            color: black;  
+            border-radius: 15px;
+            padding: 10px 20px; 
+            margin-left: 120px;
+          }
+
+        /* statistics ****************************************************/
+
+        .statistics .tiles-container {
+            display: flex;
+           flex-direction: column;
+            align-items: center;
+    }
+
+    /* pokemon battles *******************************************************/
+
+    .pokemon-battles{
+        padding: 20px 0px;
+        align-items: center;
+    }
+
+    /* pokemon trainers *******************************************************/
+    .pokemon-trainers{
+        padding: 25px 0px;
+    }
+    
+    .pokemon-trainers .tile{
+       flex-direction: column;
+    }
+    
+    .pokemon-trainers .tile-image{
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .pokemon-trainers .pokemon-name{
+       padding: 10px;
+       margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .pokemon-trainers .middle-tile{
+        margin-bottom: 70px;
+        margin-top: 20px;
+    }
+
+    /* generation cards ****************************************************/
+
+    .generation-cards{
+        padding: 30px;
+    }
+    
+    .generation-cards .date {
+        padding: 20px;
+    }
+    .generation-cards .card {
+        padding: 10px;
+    }
+    .generation-cards .info {
+        background-color: #e6e3e3;
+        border-top: 15px solid #4992ca;
+    }
+    
+    .generation-cards .description {
+        line-height: 1.6;
+        font-weight: 400;
+        border: 1px solid #e6e4e4;
+    }
+    
+    .generation-cards .card-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    /* subscribe *****************************************/
+
+    .subscribe .enter {
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    /* pokemon games *******************************************/
+    .pokemon-games .tiles-container {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    /* designers *************************************************/
+
+    .designers .tiles-container {
+        display: flex;
+        flex-direction: column;
+    }
+    }
+    
+    
+
+   
+
+    
+
+
+
+
+
+
+ 
+
+
+
+
